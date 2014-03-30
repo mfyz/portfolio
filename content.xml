@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<portfolio>
+	<project1>
+		<year>2007</year>
+		<name>Project Name #1</name>
+		<brand>SuperBrand</brand>
+		<tags>php, pear, mysql, ui design (photoshop), html, css, mootools, processing financal data</tags>
+	</project1>
+
+	<project2>
+		<year>2008</year>
+		<name>Project Name #2</name>
+		<brand>DeliciousBrand</brand>
+		<tags>ui design (photoshop), html, css, jquery</tags>
+		<url>http://my-project-url</url>
+	</project2>
+
+	<project3>
+		<year>2008</year>
+		<name>Project Name #3</name>
+		<brand>NoBrand</brand>
+		<tags>php, pear, logo design, ui design (photoshop), xhtml, css, jquery, seo</tags>
+	</project3>
+
+	<project4>
+		<year>2009</year>
+		<name>Test Project Name</name>
+		<agency>MFYZ</agency>
+		<brand>HelleyBrand</brand>
+		<tags>php, mysql, datacenter integration, re-coded moderation &amp; management system, xhtml, css, javascript, jquery, analaytics, mailing &amp; newsletter coding &amp; optimization for e-mail marketing</tags>
+		<url>http://my-project-url</url>
+	</project4>
+
+	<project5>
+		<year>2009</year>
+		<name>KatlarPatlar</name>
+		<agency>MFYZ</agency>
+		<brand>HelleyBrand</brand>
+		<tags>php, mysql, flash api, json, amfphp, facebook integration, campaign moderation, campaign statistics reports, advanced moderation, social media seeding</tags>
+		<url>http://my-project-url</url>
+	</project5>
+
+	<project6>
+		<year>2009</year>
+		<name>Helley Project</name>
+		<brand>HelleyBrand Co</brand>
+		<tags>ui design (photoshop), xhtml, css, wordpress, design integration by wordpress theme, javascript, jquery</tags>
+	</project6>
+
+	<project7>
+		<year>2009</year>
+		<name>NewProjectName - Happy New Year</name>
+		<agency>MFYZ</agency>
+		<brand>HelleyBrand Inc.</brand>
+		<tags>php, own framework, mysql, facebook connect, facebook api, wordpress integration to main site, advanced moderation, advanced statistics</tags>
+		<url>http://my-project-url</url>
+	</project7>
+</portfolio>

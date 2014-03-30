@@ -1,0 +1,425 @@
+/* @override http://l/codecanyon/leopard_portfolio/style.css */
+
+/* @group Core Styles */
+
+* {
+	font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 20px;
+	font-size: 15px;
+	text-align: center;
+	background-color: #666;
+	cursor: default;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 10px 0px 0;
+	padding: 0 0px 10px;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.3em;
+}
+
+
+a {
+	color: black;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	color: #005392;
+}
+
+a.clean, a.clean:hover {
+	border: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+/* @end */
+
+/* @group Interface */
+
+#header {
+	background: url(img/header.png) no-repeat left top;
+	height: 220px;
+	margin-bottom: 20px;
+}
+
+#header, #content {
+	width: 740px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+#header .text {
+	display: none;
+}
+
+#content {
+	clear: both;	
+}
+
+.buttons {
+	padding-top: 179px;
+}
+
+.buttons ul,
+.buttons ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.buttons ul li {
+	float: left;
+}
+
+.buttons li a {
+	float: left;
+	display: block;
+	text-indent: -9999px;
+	width: 100px;
+	height: 38px;
+}
+
+.buttons li.contact a {
+	width: 133px;
+	margin-left: 9px;
+}
+
+.buttons li.facebook a {
+	width: 140px;
+	margin-left: 319px;
+}
+
+.buttons li.linkedin a {
+	width: 125px;
+	margin-left: 5px;
+}
+
+.joblist .job {
+	clear: both;
+	padding-bottom: 10px;
+	width: 740px;
+}
+
+.contact_content {
+	margin-top: 10px;
+}
+
+.contact_content .top,
+.job .top {
+	background: url(img/box.png) no-repeat left top;
+	width: 741px;
+	height: 20px;
+}
+
+.contact_content .middle,
+.job .middle {
+	background: url(img/box.png) repeat-y -741px top;
+	width: 741px;
+}
+
+.contact_content .bottom {
+	background: url(img/box.png) no-repeat 0 -18px;
+	width: 741px;
+	height: 20px;
+}
+
+.job .bottom {
+	background: url(img/box.png) no-repeat left -20px;
+	width: 741px;
+	height: 20px;
+}
+
+.contact_form {
+	padding: 0 20px;
+}
+
+.job h2 {
+	padding: 0;
+	margin: 0;
+	font: 1.8em Georgia, "Times New Roman", Times, serif;
+}
+
+.job h2,
+.job .description,
+.job .url,
+.job .tags {
+	margin-left: 30px;
+	margin-right: 25px;
+}
+
+.job .screenshot .frametop {
+	background: transparent url(img/window_frame.gif) no-repeat left top;
+	width: 730px;
+	margin-left: 3px;
+	position: absolute;
+}
+
+.job .screenshot .framebottom {
+	background: transparent url(img/window_frame.gif) no-repeat -730px bottom;
+	width: 730px;
+	padding-bottom: 80px;
+}
+
+.job .screenshot .framebottom,
+.job .screenshot .frameimage {
+	height: 500px;
+	width: 730px;
+}
+
+.job .screenshot .frameimage {
+	text-align: center;	
+	overflow: hidden;
+	padding-top: 30px;
+	margin-bottom: 50px;
+}
+
+.job .description {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.job .url {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	background: url(img/hand.gif) no-repeat left 18px;
+	padding-left: 23px;
+}
+
+.job .url a {
+	font: 17px "Courier New", Courier, mono;
+	border-bottom: 1px dotted #0096ff;
+}
+
+.job .url a:hover {
+	border-bottom: 1px solid #ff9300;
+	color: #000;
+	background-color: #fefcb1;
+}
+
+.description {
+	font-size: 0.8em;
+	margin-bottom: 5px;
+}
+
+.description b {
+	color: #929292;
+	font-weight: bold;
+}
+
+.description .sperator {
+	color: #eaeaea;
+}
+
+.tags .tag {
+	float: left;
+	margin-right: 4px;
+	height: 23px;
+	background: url(img/tag.gif) no-repeat right top;
+	padding-right: 9px;
+	margin-bottom: 4px;
+}
+
+.tags .tag .start {
+	line-height: 23px;
+	font-size: 0.8em;
+	background: url(img/tag.gif) no-repeat left top;
+	padding-left: 17px;
+}
+
+.tags .tag .in {
+	height: 23px;
+	line-height: 23px;
+	font-size: 0.8em;
+	background: url(img/tag.gif) repeat-x left -23px;
+	color: #feffff;
+}
+
+/* @end */
+
+/* @group Contact Page */
+
+.contact_form {
+	padding-top: 30px;
+}
+
+#contact .row {
+	clear: left;
+	padding-bottom: 25px;
+}
+
+#contact .row,
+#contact .row * {
+	font-family: Georgia, "Times New Roman", Times, serif;	
+}
+
+#contact .row .label {
+	float: left;
+	width: 130px;
+	text-align: right;
+	padding-right: 15px;
+	line-height: 30px;
+	font-size: 1.2em;
+}
+
+#contact .row .type_hi,
+#contact .row .type_job {
+	float: left;
+	display: block;
+	height: 70px;	
+}
+
+#contact .row .type_hi label,
+#contact .row .type_job label,
+#contact .row span.radio {
+	display: block;
+	float: left;
+	line-height: 70px;
+}
+
+#contact .row span.radio {
+	line-height: 65px;
+}
+
+#contact .row .type_hi label {
+	background: url(img/contact_sprite.jpg) no-repeat -77px -368px;
+	padding-left: 74px;
+}
+
+#contact .row .type_job label {
+	background: url(img/contact_sprite.jpg) no-repeat -331px -372px;
+	padding-left: 79px;
+}
+
+#contact .row .type_hi.active label {
+	background: url(img/contact_sprite.jpg) no-repeat -77px -299px;
+	padding-left: 74px;
+}
+
+#contact .row .type_job.active label {
+	background: url(img/contact_sprite.jpg) no-repeat -331px -303px;
+	padding-left: 79px;
+}
+
+#contact #name,
+#contact #email,
+#contact #message {
+	font-size: 1.2em;
+	width: 447px;
+}
+
+#contact #message {
+	height: 200px;
+}
+
+#contact .row .input.nolabel {
+	margin-left: 150px;
+}
+
+#contact .type_hi,
+#contact .type_job {
+	display: block;
+	float: left;
+	font-size: 1.3em;
+	line-height: 50px;
+	height: 50px;
+	margin-right: 30px;
+}
+
+#contact .row .error {
+	background: url(img/contact_sprite.jpg) -11px -226px;
+	height: 54px;
+	line-height: 65px;
+	padding-left: 45px;
+	width: 413px;
+	margin-left: 141px;
+	display: none;
+}
+
+#contact .send_button {
+	width: 110px;
+	height: 50px;
+	display: block;
+	background: url(img/contact_sprite.jpg) -11px -7px;
+	text-align: left;
+	line-height: 49px;
+	font-size: 1.3em;
+	padding-left: 110px;
+}
+
+#contact .send_button:hover,
+#contact .send_button:active {
+	background: url(img/contact_sprite.jpg) -11px -61px;
+	color: #424242;
+}
+
+#status {
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+#status,
+#status * {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 30px;
+}
+
+#status a {
+	color: gray;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+#status .success {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 110px;
+	padding-left: 155px;
+	background: url(img/contact_sprite.jpg) no-repeat -242px -10px;
+}
+
+#status .error {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 110px;
+	padding-left: 155px;
+	background: url(img/contact_sprite.jpg) no-repeat -242px -115px;
+}
+
+#status h1 {
+	margin: 0;
+	padding: 4px 0 0;
+	font-size: 1.7em;
+}
+
+/* @end */
